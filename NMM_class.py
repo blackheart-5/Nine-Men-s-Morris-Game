@@ -62,7 +62,3 @@ class Board(object):
         s+= "       a  b  c  d  e  f  g\n"
         s+= "\n"
         return (s)
-#bb = Board()
-#print(bb.MILLS)
-#print(bb.points)
-
