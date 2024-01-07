@@ -1,4 +1,4 @@
-#  Computer Project #7
+
 #
 # Algorithm
 #  program that allows the user to play Nine Men’s Morris according to the
@@ -10,7 +10,7 @@
 
 
 import sys
-import NMM  # This is necessary for the project
+import NMM_class  # This is necessary for the project
 
 BANNER = """
     __      _(_)_ __  _ __   ___ _ __| | |
@@ -41,15 +41,6 @@ MENU = """
 """
 
 
-## Uncomment the following lines when you are ready to do input/output tests!
-## Make sure to uncomment when submitting to Codio.
-def input(prompt=None):
-    if prompt != None:
-        print(prompt, end="")
-    aaa_str = sys.stdin.readline()
-    aaa_str = aaa_str.rstrip("\n")
-    print(aaa_str)
-    return aaa_str
 
 
 def validate_mill(board, player, destination):
